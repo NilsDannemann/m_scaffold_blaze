@@ -1,0 +1,102 @@
+/* =======================================*/
+/*
+/* COLORS
+/*
+/* =======================================*/
+
+$color-black		: #333;
+$color-spaceblack	: #171F2D;
+$color-grey			: #eee;
+$color-spacegrey	: #a7adba;
+
+$color-red			: #F44336;
+$color-pink			: #E91E63;
+$color-purple		: #9C27B0;
+
+$color-lightblue	: #03A9F4;
+$color-blue			: #2196F3;
+$color-darkblue		: #1e70cd;
+
+$color-indigo		: #3F51B5;
+$color-cyan			: #00BCD4;
+$color-teal			: #248c90;
+
+$color-green		: #4CAF50;
+$color-lightgreen	: #8BC34A;
+$color-lime			: #CDDC39;
+
+$color-yellow		: #e4e437;
+$color-amber		: #FFC107;
+$color-orange		: #FF9800;
+
+$color-brand: $color-spaceblack;
+
+
+
+/* =======================================*/
+/*
+/* LAYOUT
+/*
+/* =======================================*/
+
+$whitespace			: 20px;
+$width-sidebar		: 250px;
+$devmode-overlay	: false; 	// true or false
+$devmode-breakpoints: false; 	// true or false
+$breakpoints: (
+	'xs'	: 0px,
+	's'  	: 410px,
+	'm' 	: 650px,
+	'l'  	: 800px,
+	'xl'	: 960px,
+	'xxl'	: 1600px
+);
+
+
+
+/* =======================================*/
+/*
+/* TYPOGRAPHY & FONTS
+/*
+/* =======================================*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:500,600,400);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
+
+$font-headline	: 'Raleway', sans-serif;
+$font-text		: 'Roboto', sans-serif;
+$font-size		: 13px;
+$line-height	: 1.6;
+$color-headline	: $color-black;
+$color-text		: lighten($color-black, 5%);
+
+
+
+/* =======================================*/
+/*
+/* USER INTERFACE
+/*
+/* =======================================*/
+
+$border: 1px solid rgba(0, 0, 0, 0.15);
+
+$border-radius-size-1	: 2px;
+$border-radius-size-2	: 4px;
+$border-radius-size-3	: 6px;
+$border-radius-size-4	: 8px;
+$border-radius-size-5	: 10px;
+$border-radius			: $border-radius-size-1;
+
+$box-shadow-size-1	: 0px 1px 3px rgba(0, 0, 0, 0.2);
+$box-shadow-size-2	: 0px 2px 5px rgba(0, 0, 0, 0.2);
+$box-shadow-size-3	: 0px 4px 9px rgba(0, 0, 0, 0.2);
+$box-shadow-size-4	: 0px 8px 18px rgba(0, 0, 0, 0.2);
+$box-shadow-size-5	: 0px 16px 32px rgba(0, 0, 0, 0.2);
+$box-shadow			: $box-shadow-size-2;
+
+
+
+
+
+
+

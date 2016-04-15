@@ -1,0 +1,56 @@
+/* =======================================*/
+/*
+/* TYPOGRAPHY
+/*
+/* =======================================*/
+
+body {
+	font-family: $font-text;
+	font-size: $font-size;
+	color: $color-text;
+}
+
+ul, ol {
+	margin: 0 0 $whitespace/2 0;
+	padding: 0 0 0 $whitespace*0.75;
+	line-height: $line-height;
+
+	&:last-child {margin-bottom: 0;}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-headline;
+	font-size: $font-size*1.5;
+	margin: 0 0 $whitespace/2 0;
+	color: $color-headline;
+
+	&:last-child {margin-bottom: 0;}
+}
+
+p {
+	line-height: $line-height;
+	margin: 0 0 $whitespace/2 0;
+
+	&:last-child {margin-bottom: 0;}
+}
+
+a {
+	color: $color-brand;
+	text-decoration: none;
+}
+
+blockquote {
+	margin: $whitespace/2 $whitespace;
+}
+
+hr {	
+	height: 0;
+	border-color: $color-grey;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	margin: $whitespace auto;
+	
+	&.dashed {
+		border-style: dashed;
+	}
+}
